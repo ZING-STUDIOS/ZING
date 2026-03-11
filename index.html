@@ -22,8 +22,8 @@
   <meta name="twitter:image" content="https://zing-studios.com/assets/og-image.png">
 
   <!-- Favicon -->
-  <link rel="icon" href="./assets/favicon.ico" sizes="32x32">
-  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="./assets/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="./assets/favicon.png" type="image/png">
   <link rel="apple-touch-icon" href="./assets/apple-touch-icon.png">
 
   <!-- Preload -->
@@ -73,5 +73,14 @@
     </div>
   </main>
   <video src="./assets/ZING_BACKGROUND_LOGOMARK.mp4" class="video" autoplay muted loop playsinline></video>
+  <script>
+    var video = document.querySelector('.video');
+    var playPromise = video.play();
+    if (playPromise !== undefined) {
+      playPromise.catch(function() {
+        video.style.display = 'none';
+      });
+    }
+  </script>
 </body>
 </html>
