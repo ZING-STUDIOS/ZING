@@ -62,7 +62,7 @@ p {
   object-fit: contain;
   display: block;
 }
-.video{
+.video, .fallback{
   position: absolute;
   top: 0;
   left: 0;

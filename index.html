@@ -73,12 +73,15 @@
     </div>
   </main>
   <video src="./assets/ZING_BACKGROUND_LOGOMARK.mp4" class="video" autoplay muted loop playsinline></video>
+  <img src="./assets/fallback.png" alt="Zing Studios" class="fallback" style="display: none;">
   <script>
     var video = document.querySelector('.video');
+            var fallback = document.querySelector('.fallback');
     var playPromise = video.play();
     if (playPromise !== undefined) {
       playPromise.catch(function() {
         video.style.display = 'none';
+        fallback.style.display = 'block';
       });
     }
   </script>
