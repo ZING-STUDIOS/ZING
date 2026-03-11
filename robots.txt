@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zing-studios.com/sitemap.xml

@@ -3,8 +3,60 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Zing Studios</title>
+  <title>Zing Studios — Creative Studio in Los Angeles + NYC</title>
+  <meta name="description" content="Zing Studios is a creative studio based in Los Angeles and New York City. Coming soon, est. 2026.">
+  <link rel="canonical" href="https://zing-studios.com/">
+  <meta name="theme-color" content="#000000">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://zing-studios.com/">
+  <meta property="og:title" content="Zing Studios — Creative Studio in Los Angeles + NYC">
+  <meta property="og:description" content="Zing Studios is a creative studio based in Los Angeles and New York City. Coming soon, est. 2026.">
+  <meta property="og:image" content="https://zing-studios.com/assets/og-image.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Zing Studios — Creative Studio in Los Angeles + NYC">
+  <meta name="twitter:description" content="Zing Studios is a creative studio based in Los Angeles and New York City. Coming soon, est. 2026.">
+  <meta name="twitter:image" content="https://zing-studios.com/assets/og-image.png">
+
+  <!-- Favicon -->
+  <link rel="icon" href="./assets/favicon.ico" sizes="32x32">
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./assets/apple-touch-icon.png">
+
+  <!-- Preload -->
+  <link rel="preload" href="./assets/MaisonNeue-Mono.woff" as="font" type="font/woff" crossorigin>
+
+  <!-- Styles -->
   <link rel="stylesheet" href="./main.css">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Zing Studios",
+    "url": "https://zing-studios.com",
+    "logo": "https://zing-studios.com/assets/zing-studios-logo.svg",
+    "description": "Creative studio based in Los Angeles and New York City.",
+    "foundingDate": "2026",
+    "location": [
+      {
+        "@type": "Place",
+        "name": "Los Angeles, CA"
+      },
+      {
+        "@type": "Place",
+        "name": "New York City, NY"
+      }
+    ],
+    "sameAs": [
+      "https://www.instagram.com/zingstudios"
+    ]
+  }
+  </script>
 </head>
 <body class="bg-black text-white h-screen w-screen overflow-hidden flex items-center justify-center">
   <main class="container">
@@ -13,13 +65,13 @@
       <p>Coming soon // est. 2026</p>
       <div class="flex items-center justify-center">
 
-      <a href="https://www.instagram.com/zingstudios?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">@zingstudios</a>
+      <a href="https://www.instagram.com/zingstudios?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">@zingstudios</a>
       <div class="separator"></div>
-      <a href="https://zing-studios.com" target="_blank">zing-studios.com</a>
+      <a href="https://zing-studios.com" target="_blank" rel="noopener noreferrer">zing-studios.com</a>
       </div>
       <p>Los Angeles + New York City</p>
     </div>
   </main>
-  <video src="./assets/ZING_BACKGROUND_LOGOMARK.mp4" class="video" autoplay muted loop/>
+  <video src="./assets/ZING_BACKGROUND_LOGOMARK.mp4" class="video" autoplay muted loop playsinline></video>
 </body>
 </html>

@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'Maison Neue Mono';
-  src: url('./assets/MaisonNeue-mono.woff') format('woff');
+  src: url('./assets/MaisonNeue-Mono.woff') format('woff');
+  font-display: swap;
 }
 
 body {
