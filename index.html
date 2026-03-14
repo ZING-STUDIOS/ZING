@@ -60,20 +60,22 @@
 </head>
 <body class="bg-black text-white h-screen w-screen overflow-hidden flex items-center justify-center">
   <main class="container">
+    <div class="video-container">
+      <img src="./assets/ZING_BACKGROUND_LOGOMARK.webp" alt="Zing Studios" class="video">
+    </div>
     <img src="./assets/zing-studios-logo.svg" alt="Zing Studios" class="logo">
-    <div class="text-center">
-      <p>Coming soon // est. 2026</p>
-      <div class="flex items-center justify-center">
-
-      <a href="https://www.instagram.com/zingstudios?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">@zingstudios</a>
-      <div class="separator"></div>
-      <a href="https://zing-studios.com" target="_blank" rel="noopener noreferrer">zing-studios.com</a>
+    <div class="text-center mt-4">
+      <p>Coming soon </p>
+      <div class="flex items-center justify-center mt-2">
+        <a href="https://www.instagram.com/zingstudios?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+          target="_blank" rel="noopener noreferrer">@zingstudios</a>
+        <div class="separator"></div>
+        <a href="https://zing-studios.com" target="_blank" rel="noopener noreferrer">zing-studios.com</a>
       </div>
-      <p>Los Angeles + New York City</p>
+      <p class="mt-2">Los Angeles + New York City</p>
     </div>
   </main>
-  <video src="./assets/ZING_BACKGROUND_LOGOMARK.mp4" class="video" autoplay muted loop playsinline></video>
-  <img src="./assets/fallback.png" alt="Zing Studios" class="fallback" style="display: none;">
+  
   <script>
     var video = document.querySelector('.video');
             var fallback = document.querySelector('.fallback');
